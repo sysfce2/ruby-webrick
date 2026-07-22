@@ -10,7 +10,9 @@ A WEBrick server can be composed of multiple WEBrick servers or servlets to prov
 
 WEBrick also includes tools for daemonizing a process and starting a process at a higher privilege level and dropping permissions.
 
-WEBrick is suitable for use in testing and for development.  However, while the developers of WEBrick will attempt to fix security issues, they do not encourage the use of WEBrick to serve production web applications that may be subject to hostile input.
+WEBrick is intended for use in testing and local development. It is not intended for production use, and it is not intended to receive traffic from untrusted sources.
+
+The developers of WEBrick will attempt to fix security issues, and they do so in the open, through the ordinary bug fixing process on GitHub. Because WEBrick is not intended to receive traffic from untrusted sources, the developers do not operate a vulnerability handling process for WEBrick. They do not treat reports against WEBrick as vulnerabilities and do not request CVE IDs for them.
 
 ## Installation
 

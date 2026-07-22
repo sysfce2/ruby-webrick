@@ -17,8 +17,16 @@
 #
 # == Security
 #
-# *Warning:* WEBrick is not recommended for production.  It only implements
-# basic security checks.
+# *Warning:* WEBrick is not intended for production use.  It is intended for
+# use in testing and local development, and it is not intended to receive
+# traffic from untrusted sources.  It only implements basic security checks.
+#
+# The developers of WEBrick will attempt to fix security issues, and they do
+# so in the open, through the ordinary bug fixing process.  Because WEBrick
+# is not intended to receive traffic from untrusted sources, the developers
+# do not operate a vulnerability handling process for WEBrick.  They do not
+# treat reports against WEBrick as vulnerabilities and do not request CVE
+# IDs for them.
 #
 # == Starting an HTTP server
 #
